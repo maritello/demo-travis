@@ -10,7 +10,7 @@ script:
 - yarn run build
 deploy:
   provider: firebase
-  project: dezkacv
+  project: demo-travis
   skip_cleanup: true
   token:
     secure: xoi1zDAOJFjoFUqi3JQL+1a9cTey8An1NP8OEjrrJE7gOAgH+dqaj1u7mW5WvXjcs3HNjmmhPaav4KznECPzmmj5IRA01EHe8XCfmT5C2m0Wl7g2nklDDQ/AwaBPMfsNSTqCmj+xL4KQmMIz8ZF3xyVEjHQkaRVpr9jfdhRoLLuZql9HLF3K2ctqADdRW+jVqtHMBOf93qT01uk5OiCmKfWhmc4C0GK/yJrL+mP3RvRgeNzflalFJfiw7/Ro5kighBgiTBYrPXN40YqOqQ/OROrK+yQ4i7Yg3DhxS/K//0eg4AbPcUrIJsAbKLD9zXvif7jsNGXqGzAmDhYX0/ex4D9MwTEkEowjewlf0ft/uG84534I81/j7AHWgsq52+nwYHUgFh+75bsG2i6cg9mAR/LYiQ0vDNAtKkmB6G1C0hixf8DbGXNcgmr0DGDjgBwOvRnB/T1rWHaED6SvaIOVmQGDulHqlE2/gPRcTP14xaz4F6m8ZF17vTA8iPcYeDicPtb8V3putBKsFA6ukPhMwKpZRxNsJScOhRaEPyiurrYaO9Phk8AYWbBdKTNzjNxNY5mmtOa+gXZS4q/ua9zGlZJUzpF3Jjet/k2HqOghgjx+CB5PEC0Q7Yz9eOmFlmf2eqD0x0UJPRHBJxa5TX8sapPSbyb3Sz/5ZqVXtD9tBJs=
